@@ -8,29 +8,45 @@
                 contact: "CONTATO",
                 contact2: "CONTATO",
                 latheContact:"Entre em Contato",
-                latheContact2:"Entre em Contato",
-                description:"A South.in Cuts é uma fornecedora de matéria-prima para tornos de gravação. Nós fornecemos máquinas de corte, agulhas e discos em branco. Além disso, oferecemos serviços de gravação em discos com a sua música personalizada. Entre em contato conosco para adquirir materiais e soluções personalizadas para suas necessidades de usinagem e gravação.",
+                
+                description:"A South in Cuts é uma fornecedora de matéria-prima para tornos de gravação. Nós fornecemos máquinas de corte, agulhas e discos em branco. Além disso, oferecemos serviços de gravação em discos com a sua música personalizada. Entre em contato conosco para adquirir materiais e soluções personalizadas para suas necessidades de usinagem e gravação.",
 
                 contacttext:
                     "Entre em contato conosco e ficaremos felizes em esclarecer todas as suas dúvidas sobre os nossos equipamentos. Nossos mixers rotativos e nossos tornos de gravação estão à disposição, prontos para atender às suas necessidades. Não hesite em nos contatar para obter informações detalhadas sobre como nossos produtos podem melhorar a qualidade e eficiência do seu trabalho. Estamos ansiosos para ajudá-lo a encontrar a solução perfeita para os seus projetos.",
 
-                SVR84: "A máquina gravadora de vinil SVR-84 - Record Lathe é uma evolução impressionante da tecnologia de corte de discos de vinil.",
+                MC02: "A máquina gravadora de vinil MC-02 MiniCut Record Lathe representa uma revolução no mundo da gravação de discos, oferecendo uma solução portátil e acessível para entusiastas de música em casa.",
 
-                subtitle: "Uma revolução em cortar discos",
+                subtitle: "Inovação em Gravação",
 
                 paragraf:
-                    "Com recursos de última geração, essa máquina oferece aos profissionais da música e estúdios de gravação uma maneira eficiente e altamente precisa de criar vinis personalizados. O SVR-84 é equipado com recursos avançados, como controle de precisão CNC, que permite ajustar com extrema exatidão a profundidade e a largura dos sulcos, resultando em uma qualidade sonora excepcional. Além disso, seu sistema de monitoramento em tempo real e automação avançada garantem a consistência e a qualidade de cada gravação. Compatível com formatos de vinil padrão e personalizados, a SVR-84 atende às demandas dos músicos, gravadoras e audiófilos que desejam criar registros de vinil excepcionais e exclusivos em um ambiente de produção de alta tecnologia. Essa máquina gravadora de vinil representa a fusão perfeita entre a tradição do vinil e a moderna engenharia de precisão.",
+                    "Com um design compacto e acabamento em metal de alta qualidade, o MC-02 é equipado com funções básicas ideais para criar registros em formatos lofi e hifi. Sua cabeça de corte estéreo proporciona uma experiência de gravação autêntica e imersiva. Simplesmente conecte o MC-02 ao seu toca-discos e comece a gravar suas músicas favoritas no conforto da sua casa.",
+                    
+                    subtitleX: "Facilidade de Uso e Versatilidade",
+
+                paragrafX:
+                    "Essa máquina oferece uma entrada acessível para quem deseja entrar no mundo da gravação de vinil. Com um ótimo custo-benefício, o MC-02 MiniCut Record Lathe permite que você inicie sua jornada na criação de discos personalizados de maneira fácil e eficiente.",
+                    
+                    subtitleX2: "Curso de Gravação",
+
+                paragrafX2:
+                    "Para garantir que você aproveite ao máximo seu MC-02, oferecemos um curso especializado, tanto presencial quanto online. Nossos instrutores são especialistas em gravação de vinil e estão comprometidos em fornecer orientações práticas para aprimorar suas habilidades de gravação.",
+                    
+                    subtitleX3: "JC Áudio",
+
+                paragrafX3:
+                    "Desenvolvido por JC Áudio, uma empresa com mais de 10 anos de experiência na fabricação de tornos para gravação de vinil, o MC-02 MiniCut Record Lathe combina a tradição do vinil com a experiência em engenharia de precisão. Confie na qualidade e na confiabilidade de uma marca que é sinônimo de excelência na indústria fonográfica.",
+                    
 
                 botao: "Entre em Contato",
 
-                SVR82: "A máquina gravadora de vinil SVR-82 - Record Lathe é um dispositivo excepcional que permite aos entusiastas da música e aos pequenos selos criar suas próprias gravações em vinil.",
+                
 
-                subtitle2: "Faça seus próprios discos",
 
-                paragraf2:
-                    "Com precisão e qualidade de fabricação excepcionais, a SVR-82 oferece um processo de gravação controlado e personalizado. Essa máquina é uma verdadeira ferramenta de artesanato musical, permitindo que os operadores cortem sulcos em discos de vinil virgens para criar suas próprias prensagens exclusivas. A SVR-82 oferece flexibilidade na escolha do tipo de vinil, velocidade de rotação e profundidade de corte, tornando-a adequada para uma ampla variedade de estilos musicais. Essa máquina gravadora de vinil é um tesouro para audiófilos, colecionadores de vinis e músicos independentes que desejam trazer suas criações musicais para o formato analógico clássico com um toque de autenticidade e singularidade.",
 
-                botao2: "Entre em Contato",
+
+
+
+
 
                 titleDiamond:
                     "Precisão Artesanal e Excelência Sônica com a Tecnologia de Stylus de Diamante",

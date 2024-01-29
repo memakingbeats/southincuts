@@ -8,29 +8,40 @@
                 contact: "CONTACT",
                 contact2: "CONTACT",
                 latheContact:"Contact Us",
-                latheContact2:"Contact Us",
-                description:"South.in Cuts is a supplier of raw materials for Recording lathes. We provide cutting machines, needles, and blank discs. Additionally, we offer disc engraving services with your personalized music. Get in touch with us to acquire high-quality materials and customized solutions for your machining and recording needs.",
+                
+                description:"South in Cuts is a supplier of raw materials for Recording lathes. We provide cutting machines, needles, and blank discs. Additionally, we offer disc engraving services with your personalized music. Get in touch with us to acquire high-quality materials and customized solutions for your machining and recording needs.",
 
                 contacttext:
                     "Contact us, and we will be happy to address all your inquiries about our equipment. Our rotary mixers and recording lathes are available, ready to meet your needs. Feel free to reach out to us for detailed information on how our products can enhance the quality and efficiency of your work. We look forward to assisting you in finding the perfect solution for your projects.",
 
-                SVR84: "The vinyl recording machine SVR-84 - Record Lathe is an impressive evolution of vinyl disc cutting technology.",
+                MC02: "The vinyl recording machine MC-02 MiniCut Record Lathe represents a revolution in the world of record recording, providing a portable and affordable solution for home music enthusiasts.",
 
                 subtitle: "A revolution in cutting records.",
 
                 paragraf:
                     "Equipped with state-of-the-art features, this machine offers music professionals and recording studios an efficient and highly precise way to create customized vinyl records. The SVR-84 is equipped with advanced features such as CNC precision control, allowing for extremely accurate adjustment of groove depth and width, resulting in exceptional sound quality. Furthermore, its real-time monitoring system and advanced automation ensure the consistency and quality of each recording. Compatible with standard and custom vinyl formats, the SVR-84 meets the demands of musicians, record labels, and audiophiles looking to create exceptional and unique vinyl records in a high-tech production environment. This vinyl recording machine represents the perfect blend of vinyl tradition and modern precision engineering.",
 
+
+
+                    subtitleX: "Ease of Use and Versatility",
+
+                paragrafX:
+                    "This machine offers an accessible entry for those looking to step into the world of vinyl recording. With great cost-effectiveness, the MC-02 MiniCut Record Lathe allows you to embark on your journey of creating custom records in an easy and efficient manner.",
+                    
+                    subtitleX2: "Recording Course",
+
+                paragrafX2:
+                    "To ensure you make the most of your MC-02, we provide a specialized course, both in-person and online. Our instructors are experts in vinyl recording and are dedicated to offering practical guidance to enhance your recording skills.",
+                    
+                    subtitleX3: "JC Audio",
+
+                paragrafX3:
+                    "Developed by JC Audio, a company with over 10 years of experience in manufacturing lathes for vinyl recording, the MC-02 MiniCut Record Lathe combines the tradition of vinyl with precision engineering expertise. Trust in the quality and reliability of a brand synonymous with excellence in the phonographic industry.",
+                    
+
                 botao: "Contact Us",
 
-                SVR82: "The vinyl recording machine SVR-82 - Record Lathe is an exceptional device that enables music enthusiasts and small labels to create their own vinyl recordings.",
-
-                subtitle2: "Create your own records.",
-
-                paragraf2:
-                    "With exceptional precision and quality of craftsmanship, the SVR-82 provides a controlled and customized recording process. This machine is a true musical craft tool, allowing operators to cut grooves into blank vinyl discs to create their own unique pressings. The SVR-82 offers flexibility in choosing the type of vinyl, rotation speed, and cutting depth, making it suitable for a wide variety of musical styles. This vinyl recording machine is a treasure for audiophiles, vinyl collectors, and independent musicians who want to bring their musical creations to the classic analog format with a touch of authenticity and uniqueness.",
-
-                botao2: "Contact Us",
+                
 
                 titleDiamond:
                     "Precision Crafting and Sonic Excellence with Diamond Stylus Technology",
@@ -40,7 +51,7 @@
                 paragrafDiamond:
                     "Delve into a world of unparalleled precision and sonic purity with the Diamond Stylus for cutting and recording lathes. This meticulously crafted tool serves a dual purpose, delicately cutting through plastic surfaces and subsequently capturing music with minimal surface noise. Crafted by the skilled professionals at JC Audio, our trusted partner in delivering top-notch audio equipment, these diamond stylus needles epitomize the intersection of craftsmanship and innovation. Elevate your audio experience as you embrace the seamless fusion of cutting-edge technology and the artistry of sound.",
 
-                titleCrabide:
+                titleCarbide:
                     "Tungsten Carbide Brilliance: Unleashing Precision in Embossing and Cutting",
 
                 subtitleCarbide: "Embossing and Cutting",
