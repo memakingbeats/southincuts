@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="JC Record Lathes" />
+        <meta name="keywords" content="JC Record Lathes, Rotary" />
+        <meta property="og:title" content="JC Record Lathes website" />
+        <meta property="og:type" content="website" />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        />
+        <link rel="stylesheet" href="./lathe.css" />
+
+        <script src="../languages/language-en.js"></script>
+        <script src="../languages/language-pt.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <title>JC Record Lathes</title>
+    </head>
+    <body>
+        <main id="full">
+            <div class="container">
+                <header>
+                    <div class="row">
+                        <!-- Logo on the right side -->
+                        <div class="col-md-6 text-center text-md-right">
+                            <img
+                                src="../imagens/southincuts2.png"
+                                alt="JC"
+                                class="logo"
+                            />
+                        </div>
+
+                        <!-- Navigation links on the left side -->
+                        <div class="col-md-6">
+                            <nav class="navbar navbar-expand-md navbar-light">
+                                <button
+                                    class="navbar-toggler"
+                                    type="button"
+                                    data-toggle="collapse"
+                                    data-target="#navbarNav"
+                                >
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div
+                                    class="collapse navbar-collapse"
+                                    id="navbarNav"
+                                >
+                                    <ul class="navbar-nav ml-auto">
+                                        <li class="nav-item">
+                                            <a
+                                                class="nav-link"
+                                                href="../back.html"
+                                                ><span id="home"></span
+                                            ></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a
+                                                class="nav-link"
+                                                href="lathe.html"
+                                                ><span id="lathe"></span
+                                            ></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a
+                                                class="nav-link"
+                                                href="../Styli/styli.html"
+                                                ><span id="styli"></span
+                                            ></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a
+                                                class="nav-link"
+                                                href="../blanks/blanks.html"
+                                                ><span id="blanks"></span
+                                            ></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a
+                                                class="nav-link"
+                                                href="../records/records.html"
+                                                ><span id="records"></span
+                                            ></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a
+                                                class="nav-link"
+                                                href="../contact/contact.html"
+                                                ><span id="contact"></span
+                                            ></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- Language Selection Dropdown -->
+                    <div class="language-dropdown">
+                        <label for="language"></label>
+                        <select id="language" onchange="changeLanguage()">
+                            <option value="en">🇺🇸 English</option>
+                            <option value="pt">🇧🇷 Português</option>
+                        </select>
+                    </div>
+                </header>
+                <div class="container">
+                    <div class="row">
+                        <!-- Left Column -->
+                        <div class="col-lg-6 text1">
+                            <h1>SVR-84</h1>
+                            <p class="subt">
+                                <span id="SVR84"></span>
+                            </p>
+                            <h4>
+                                <span id="subtitle"></span>
+                            </h4>
+                            <p>
+                                <span id="paragraf"></span>
+                            </p>
+
+                            <a
+                                href="https://api.whatsapp.com/send?phone=554799934162"
+                                class="btn btn-primary"
+                                target="_blank"
+                                ><span id="latheContact"></span
+                            ></a>
+                        </div>
+
+                        <!-- Right Column -->
+                        <div class="col-lg-6">
+                            <!-- Big image with unique ID -->
+                            <img
+                                id="bigImage"
+                                src="../imagens/lat1.jpeg"
+                                alt="Product Image"
+                                class="img-fluid big-image"
+                            />
+
+                            <!-- Small images for changing the big one -->
+                            <div class="row">
+                                <div class="col">
+                                    <img
+                                        src="../imagens/lat2.jpeg"
+                                        alt="Small Image 1"
+                                        class="img-thumbnail small-image"
+                                    />
+                                </div>
+                                <div class="col">
+                                    <img
+                                        src="../imagens/lat3.jpeg"
+                                        alt="Small Image 2"
+                                        class="img-thumbnail small-image"
+                                    />
+                                </div>
+                                <div class="col">
+                                    <img
+                                        src="../imagens/lat4.jpeg"
+                                        alt="Small Image 3"
+                                        class="img-thumbnail small-image"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <main id="full">
+            <div class="container">
+                <div class="container">
+                    <div class="row">
+                        <!-- Left Column -->
+                        <div class="col-lg-6 text2">
+                            <h1>SVR-82</h1>
+                            <p class="subt">
+                                <span id="SVR82"></span>
+                            </p>
+                            <h4>
+                                <span id="subtitle2"></span>
+                            </h4>
+                            <p><span id="paragraf2"></span></p>
+                            <a
+                                href="https://api.whatsapp.com/send?phone=554799934162"
+                                class="btn btn-primary"
+                                target="_blank"
+                                ><span id="latheContact2"></span
+                            ></a>
+                        </div>
+
+                        <!-- Right Column -->
+                        <div class="col-lg-6">
+                            <!-- Big image with unique ID -->
+                            <img
+                                id="bigImage2"
+                                src="../imagens/lat1.jpeg"
+                                alt="Product Image"
+                                class="img-fluid big-image2"
+                            />
+
+                            <!-- Small images for changing the big one -->
+                            <div class="row">
+                                <div class="col">
+                                    <img
+                                        src="../imagens/lat2.jpeg"
+                                        alt="Small Image 1"
+                                        class="img-thumbnail small-image2"
+                                    />
+                                </div>
+                                <div class="col">
+                                    <img
+                                        src="../imagens/lat3.jpeg"
+                                        alt="Small Image 2"
+                                        class="img-thumbnail small-image2"
+                                    />
+                                </div>
+                                <div class="col">
+                                    <img
+                                        src="../imagens/lat4.jpeg"
+                                        alt="Small Image 3"
+                                        class="img-thumbnail small-image2"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Image Modal -->
+        <div
+            class="modal fade"
+            id="imageModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="imageModalLabel"
+            aria-hidden="true"
+        >
+            <div
+                class="modal-dialog modal-dialog-centered modal-lg"
+                role="document"
+            >
+                <div class="modal-content">
+                    <img
+                        id="modalImage"
+                        class="img-fluid"
+                        alt="Product Image"
+                    />
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script>
+        function changeLanguage() {
+            var selectedLanguage = document.getElementById("language").value;
+
+            // Update the content based on the selected language
+            switch (selectedLanguage) {
+                case "en":
+                    updateContent(translationsEn);
+                    break;
+                case "pt":
+                    updateContent(translationsPt);
+                    break;
+                default:
+                    break;
+            }
+
+            // Store the selected language preference
+            localStorage.setItem("userLanguage", selectedLanguage);
+        }
+
+        function updateContent(translations) {
+            document.getElementById("home").textContent = translations.home;
+            document.getElementById("lathe").textContent = translations.lathe;
+            document.getElementById("styli").textContent = translations.styli;
+            document.getElementById("blanks").textContent = translations.blanks;
+            document.getElementById("records").textContent =
+                translations.records;
+            document.getElementById("contact").textContent =
+                translations.contact;
+            document.getElementById("SVR84").textContent = translations.SVR84;
+            document.getElementById("subtitle").textContent =
+                translations.subtitle;
+            document.getElementById("paragraf").textContent =
+                translations.paragraf;
+            document.getElementById("latheContact").textContent =
+                translations.latheContact;
+            document.getElementById("SVR82").textContent = translations.SVR82;
+            document.getElementById("subtitle2").textContent =
+                translations.subtitle2;
+            document.getElementById("paragraf2").textContent =
+                translations.paragraf2;
+            document.getElementById("latheContact2").textContent =
+                translations.latheContact2;
+        }
+
+        // Retrieve the user's language preference from storage
+        var storedLanguage = localStorage.getItem("userLanguage");
+
+        // Set the default language to Portuguese or the stored preference
+        document.getElementById("language").value = storedLanguage || "pt";
+
+        // Trigger the language change when the page loads
+        changeLanguage();
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // JavaScript for image swapping
+            const bigImage = document.getElementById("bigImage"); // Removed the '#' from "bigImage"
+            const smallImages = document.querySelectorAll(".small-image");
+
+            smallImages.forEach((smallImage) => {
+                smallImage.addEventListener("click", () => {
+                    const clickedImageSrc = smallImage.getAttribute("src");
+                    const bigImageSrc = bigImage.getAttribute("src");
+                    // Swap the big image source with the clicked image source
+                    bigImage.setAttribute("src", clickedImageSrc);
+                    // And if you also want to set the clicked small image to the previous big image source:
+                    smallImage.setAttribute("src", bigImageSrc);
+                });
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // JavaScript for image swapping
+            const bigImage2 = document.getElementById("bigImage2"); // Removed the '#' from "bigImage"
+            const smallImages2 = document.querySelectorAll(".small-image2");
+
+            smallImages2.forEach((smallImage2) => {
+                smallImage2.addEventListener("click", () => {
+                    const clickedImage2Src = smallImage2.getAttribute("src");
+                    const bigImage2Src = bigImage2.getAttribute("src");
+                    // Swap the big image source with the clicked image source
+                    bigImage2.setAttribute("src", clickedImage2Src);
+                    // And if you also want to set the clicked small image to the previous big image source:
+                    smallImage2.setAttribute("src", bigImage2Src);
+                });
+            });
+        });
+    </script>
+</html>

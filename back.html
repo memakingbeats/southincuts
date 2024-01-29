@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="JC Record Lathes" />
+        <meta name="keywords" content="JC Record Lathes, Rotary" />
+        <meta property="og:title" content="JC Record Lathes website" />
+        <meta property="og:type" content="website" />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+        />
+
+        <link rel="stylesheet" href="./estiloback.css" />
+
+        <script src="./languages/language-en.js"></script>
+        <script src="./languages/language-pt.js"></script>
+
+        <script
+            src="https://code.jquery.com/jquery-3.6.1.min.js"
+            integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+            crossorigin="anonymous"
+        ></script>
+
+        <title>JC Record Lathes</title>
+
+        <style></style>
+    </head>
+    <body>
+        <main id="full">
+            <div class="container">
+                <header>
+                    <div class="logo">
+                        <img
+                            src="imagens/southincuts2.png"
+                            alt="Pedro Floriani"
+                        />
+                    </div>
+
+                    <!-- Update the nav.menu section in your HTML -->
+                    <nav class="menu">
+                        <p>
+                            <a href="lathe/lathe.html"
+                                ><span id="lathe"></span
+                            ></a>
+                        </p>
+                        <p>
+                            <a href="Styli/styli.html"
+                                ><span id="styli"></span
+                            ></a>
+                        </p>
+                        <p>
+                            <a href="blanks/blanks.html"
+                                ><span id="blanks"></span
+                            ></a>
+                        </p>
+                        <p>
+                            <a href="records/records.html"
+                                ><span id="records"></span
+                            ></a>
+                        </p>
+                        <p>
+                            <a href="contact/contact.html"
+                                ><span id="contact"></span
+                            ></a>
+                        </p>
+                    </nav>
+                    <nav class="socialmedia">
+                        <a
+                            href="https://www.instagram.com/jc_record_lathes/"
+                            target="_blank"
+                            ><i class="fab fa-instagram"></i
+                        ></a>
+                        <a
+                            href="https://www.facebook.com/juliano.juba.9/photos"
+                            target="_blank"
+                            ><i class="fab fa-facebook"></i
+                        ></a>
+                    </nav>
+                    <!-- Language Selection Dropdown -->
+                    <div class="language-dropdown">
+                        <label for="language"></label>
+                        <select id="language" onchange="changeLanguage()">
+                            <option value="en">🇺🇸 English</option>
+                            <option value="pt">🇧🇷 Português</option>
+                        </select>
+                    </div>
+                </header>
+                <div class="bubbles">
+                    <span style="--i: 0.9"></span>
+                    <div style="--i: 0.1"></div>
+                    <span style="--i: 0.8"></span>
+                    <div style="--i: 1"></div>
+                    <span style="--i: 0.4"></span>
+                    <div style="--i: 0.6"></div>
+                    <span style="--i: 0.9"></span>
+                    <div style="--i: 0.1"></div>
+                    <span style="--i: 0.4"></span>
+                    <div style="--i: 0.5"></div>
+                    <span style="--i: 0.12"></span>
+                    <div style="--i: 0.3"></div>
+                    <span style="--i: 0.14"></span>
+                    <div style="--i: 0.3"></div>
+                    <span style="--i: 0.2"></span>
+                    <div style="--i: 0.1"></div>
+                    <span style="--i: 0.2"></span>
+                    <div style="--i: 0.11"></div>
+                    <span style="--i: 0.7"></span>
+                    <div style="--i: 0.31"></div>
+                    <span style="--i: 0.34"></span>
+                    <div style="--i: 0.2"></div>
+                    <span style="--i: 0.12"></span>
+                    <div style="--i: 0.1"></div>
+                    <span style="--i: 0.23"></span>
+                    <div style="--i: 0.2"></div>
+                    <span style="--i: 0.2"></span>
+                    <div style="--i: 0.3"></div>
+                    <span style="--i: 0.1"></span>
+                    <div style="--i: 0.1"></div>
+                    <span style="--i: 0.3"></span>
+                    <div style="--i: 0.4"></div>
+                    <span style="--i: 0.8"></span>
+                    <div style="--i: 0.06"></div>
+                    <span style="--i: 0.45"></span>
+                    <div style="--i: 0.5"></div>
+                    <span style="--i: 0.2"></span>
+                    <div style="--i: 0.3"></div>
+                    <span style="--i: 0.1"></span>
+                    <div style="--i: 0.22"></div>
+                    <span style="--i: 0.3"></span>
+                    <div style="--i: 0.3"></div>
+                    <span style="--i: 0.4"></span>
+                    <div style="--i: 0.06"></div>
+                    <span style="--i: 0.1"></span>
+                    <div style="--i: 0.1"></div>
+                    <span style="--i: 0.35"></span>
+                    <div style="--i: 0.9"></div>
+                    <span style="--i: 0.02"></span>
+                    <div style="--i: 0.5"></div>
+                    <span style="--i: 0.15"></span>
+                    <div style="--i: 0.9"></div>
+                    <span style="--i: 0.4"></span>
+                    <div style="--i: 0.3"></div>
+                    <span style="--i: 0.13"></span>
+                    <div style="--i: 0.01"></div>
+                    <span style="--i: 0.4"></span>
+                    <div style="--i: 2"></div>
+                    <span style="--i: 0.1"></span>
+                    <div style="--i: 0.3"></div>
+                    <span style="--i: 0.22"></span>
+                    <div style="--i: 0.9"></div>
+                    <span style="--i: 0.05"></span>
+                    <div style="--i: 0.12"></div>
+                    <span style="--i: 0.9"></span>
+                    <div style="--i: 0.4"></div>
+                    <span style="--i: 0.8"></span>
+                    <div style="--i: 0.6"></div>
+                    <span style="--i: 0.18"></span>
+                    <div style="--i: 0.1"></div>
+                    <span style="--i: 0.1"></span>
+                    <div style="--i: 0.4"></div>
+                    <span style="--i: 0.4"></span>
+                    <div style="--i: 0.1"></div>
+                    <span style="--i: 0.9"></span>
+                    <div style="--i: 0.24"></div>
+                    <span style="--i: 2"></span>
+                    <div style="--i: 0.013"></div>
+                    <span style="--i: 4"></span>
+                    <div style="--i: 2"></div>
+                    <div style="--i: 0.7"></div>
+                    <div style="--i: 1"></div>
+                    <div style="--i: 0.9"></div>
+                    <div style="--i: 0.4"></div>
+                </div>
+            </div>
+        </main>
+        <!-- Add this paragraph where you want to describe your work -->
+        <div class="work-description">
+            <p>
+                <span id="description"></span>
+            </p>
+        </div>
+
+        <script>
+            function changeLanguage() {
+                var selectedLanguage =
+                    document.getElementById("language").value;
+
+                // Update the content based on the selected language
+                switch (selectedLanguage) {
+                    case "en":
+                        updateContent(translationsEn);
+                        break;
+                    case "pt":
+                        updateContent(translationsPt);
+                        break;
+                    default:
+                        break;
+                }
+
+                // Store the selected language preference
+                localStorage.setItem("userLanguage", selectedLanguage);
+            }
+
+            function updateContent(translations) {
+                document.getElementById("lathe").textContent =
+                    translations.lathe;
+                document.getElementById("styli").textContent =
+                    translations.styli;
+                document.getElementById("blanks").textContent =
+                    translations.blanks;
+                document.getElementById("records").textContent =
+                    translations.records;
+                document.getElementById("contact").textContent =
+                    translations.contact;
+                document.getElementById("description").textContent =
+                    translations.description;
+            }
+
+            // Retrieve the user's language preference from storage
+            var storedLanguage = localStorage.getItem("userLanguage");
+
+            // Set the default language to Portuguese or the stored preference
+            document.getElementById("language").value = storedLanguage || "pt";
+
+            // Trigger the language change when the page loads
+            changeLanguage();
+        </script>
+    </body>
+</html>

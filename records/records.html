@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="JC Record Lathes" />
+        <meta name="keywords" content="JC Record Lathes, Rotary" />
+        <meta property="og:title" content="JC Record Lathes website" />
+        <meta property="og:type" content="website" />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        />
+
+        <link rel="stylesheet" href="./records.css" />
+
+        <script src="../languages/language-en.js"></script>
+        <script src="../languages/language-pt.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <style></style>
+        <title>JC Record Lathes</title>
+    </head>
+    <body>
+        <main id="full">
+            <div class="container">
+                <header>
+                    <div class="row">
+                        <!-- Logo on the right side -->
+                        <div class="col-md-6 text-center text-md-right">
+                            <img
+                                src="../imagens/southincuts2.png"
+                                alt="JC"
+                                class="logo"
+                            />
+                        </div>
+
+                        <!-- Navigation links on the left side -->
+                        <div class="col-md-6">
+                            <nav class="navbar navbar-expand-md navbar-light">
+                                <button
+                                    class="navbar-toggler"
+                                    type="button"
+                                    data-toggle="collapse"
+                                    data-target="#navbarNav"
+                                >
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div
+                                    class="collapse navbar-collapse"
+                                    id="navbarNav"
+                                >
+                                    <ul class="navbar-nav ml-auto">
+                                        <li class="nav-item">
+                                            <a
+                                                class="nav-link"
+                                                href="../back.html"
+                                                ><span id="home"></span
+                                            ></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a
+                                                class="nav-link"
+                                                href="../lathe/lathe.html"
+                                                ><span id="lathe"></span
+                                            ></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a
+                                                class="nav-link"
+                                                href="../Styli/styli.html"
+                                                ><span id="styli"></span
+                                            ></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a
+                                                class="nav-link"
+                                                href="../blanks/blanks.html"
+                                                ><span id="blanks"></span
+                                            ></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a
+                                                class="nav-link"
+                                                href="records.html"
+                                                ><span id="records"></span
+                                            ></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a
+                                                class="nav-link"
+                                                href="../contact/contact.html"
+                                                ><span id="contact"></span
+                                            ></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- Language Selection Dropdown -->
+                    <div class="language-dropdown">
+                        <label for="language"></label>
+                        <select id="language" onchange="changeLanguage()">
+                            <option value="en">🇺🇸 English</option>
+                            <option value="pt">🇧🇷 Português</option>
+                        </select>
+                    </div>
+                </header>
+                <!-- NEW SECTION: Our Recordings Tests -->
+                <section class="recordings-section">
+                    <div class="container">
+                        <h2 class="recordstest">
+                            <span id="recordsTest"></span>
+                        </h2>
+                        <p class="record"><span id="recordsTestsubt"></span></p>
+
+                        <!-- Audio 1 -->
+                        <div class="audio-container">
+                            <p>Audio 1 - Memaking</p>
+                            <p class="space"><span id="diamontTest"></span></p>
+                            <audio id="audio1" controls>
+                                <source
+                                    src="../audios/Ranjizz - People.wav"
+                                    type="audio/mp3"
+                                />
+                                Your browser does not support the audio tag.
+                            </audio>
+                            <p class="space2"><span id="carbideTest"></span></p>
+                            <audio id="audio2" controls>
+                                <source
+                                    src="../audios/Ranjizz - Preference.wav"
+                                    type="audio/mp3"
+                                />
+                                Your browser does not support the audio tag.
+                            </audio>
+                        </div>
+
+                        <!-- Audio 2 -->
+                        <div class="audio-container">
+                            <p class="subt">Audio 2 - Ranjizz</p>
+                            <p class="space"><span id="diamontTest2"></span></p>
+                            <audio id="audio3" controls>
+                                <source
+                                    src="../audios/Ranjizz - Roll.wav"
+                                    type="audio/mp3"
+                                />
+                                Your browser does not support the audio tag.
+                            </audio>
+                            <p class="space2">
+                                <span id="carbideTest2"></span>
+                            </p>
+                            <audio id="audio4" controls>
+                                <source
+                                    src="../audios/Ranjizz - Sunday.wav"
+                                    type="audio/mp3"
+                                />
+                                Your browser does not support the audio tag.
+                            </audio>
+                        </div>
+
+                        <!-- Audio 3 -->
+                        <div class="audio-container">
+                            <p class="subt">Audio 3 - Fabio Ape</p>
+                            <p class="space"><span id="diamontTest3"></span></p>
+                            <audio id="audio5" controls>
+                                <source
+                                    src="../audios/Ranjizz - ZzZ.wav"
+                                    type="audio/mp3"
+                                />
+                                Your browser does not support the audio tag.
+                            </audio>
+                            <p class="space2">
+                                <span id="carbideTest3"></span>
+                            </p>
+                            <audio id="audio6" controls>
+                                <source
+                                    src="../audios/Ranjizz -BR48-.wav"
+                                    type="audio/mp3"
+                                />
+                                Your browser does not support the audio tag.
+                            </audio>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </body>
+    <!-- Add this script to your HTML file -->
+    <script>
+        let currentlyPlaying = null;
+
+        function playAudio(audioId) {
+            const audio = document.getElementById(audioId);
+
+            if (currentlyPlaying && currentlyPlaying !== audio) {
+                currentlyPlaying.pause();
+                // Store the current playback position in localStorage
+                localStorage.setItem(
+                    currentlyPlaying.id,
+                    currentlyPlaying.currentTime
+                );
+            }
+
+            currentlyPlaying = audio;
+
+            // Retrieve the stored playback position from localStorage
+            const storedTime = localStorage.getItem(audio.id);
+            if (storedTime) {
+                audio.currentTime = parseFloat(storedTime);
+            }
+
+            audio.play();
+        }
+
+        function updatePlaybackPosition(audio) {
+            // Update the stored playback position in localStorage during playback
+            localStorage.setItem(audio.id, audio.currentTime);
+        }
+
+        function updatePlaybackPositionOnClick(audio, event) {
+            const progress = event.offsetX / event.target.clientWidth;
+            audio.currentTime = audio.duration * progress;
+            updatePlaybackPosition(audio);
+        }
+
+        // Clear stored playback positions when the page is loaded
+        window.onload = function () {
+            localStorage.clear();
+        };
+
+        // Add event listeners for each audio element
+        document
+            .getElementById("audio1")
+            .addEventListener("play", () => playAudio("audio1"));
+        document
+            .getElementById("audio2")
+            .addEventListener("play", () => playAudio("audio2"));
+        document
+            .getElementById("audio3")
+            .addEventListener("play", () => playAudio("audio3"));
+        document
+            .getElementById("audio4")
+            .addEventListener("play", () => playAudio("audio4"));
+        document
+            .getElementById("audio5")
+            .addEventListener("play", () => playAudio("audio5"));
+        document
+            .getElementById("audio6")
+            .addEventListener("play", () => playAudio("audio6"));
+
+        // Add timeupdate event listeners to update the playback position
+        document
+            .getElementById("audio1")
+            .addEventListener("timeupdate", () =>
+                updatePlaybackPosition(audio1)
+            );
+        document
+            .getElementById("audio2")
+            .addEventListener("timeupdate", () =>
+                updatePlaybackPosition(audio2)
+            );
+        document
+            .getElementById("audio3")
+            .addEventListener("timeupdate", () =>
+                updatePlaybackPosition(audio3)
+            );
+        document
+            .getElementById("audio4")
+            .addEventListener("timeupdate", () =>
+                updatePlaybackPosition(audio4)
+            );
+        document
+            .getElementById("audio5")
+            .addEventListener("timeupdate", () =>
+                updatePlaybackPosition(audio5)
+            );
+        document
+            .getElementById("audio6")
+            .addEventListener("timeupdate", () =>
+                updatePlaybackPosition(audio6)
+            );
+
+        // Add click event listeners to update playback position on click
+        document
+            .getElementById("audio1")
+            .addEventListener("click", (event) =>
+                updatePlaybackPositionOnClick(audio1, event)
+            );
+        document
+            .getElementById("audio2")
+            .addEventListener("click", (event) =>
+                updatePlaybackPositionOnClick(audio2, event)
+            );
+        document
+            .getElementById("audio3")
+            .addEventListener("click", (event) =>
+                updatePlaybackPositionOnClick(audio3, event)
+            );
+        document
+            .getElementById("audio4")
+            .addEventListener("click", (event) =>
+                updatePlaybackPositionOnClick(audio4, event)
+            );
+        document
+            .getElementById("audio5")
+            .addEventListener("click", (event) =>
+                updatePlaybackPositionOnClick(audio5, event)
+            );
+        document
+            .getElementById("audio6")
+            .addEventListener("click", (event) =>
+                updatePlaybackPositionOnClick(audio6, event)
+            );
+    </script>
+
+    <script>
+        function changeLanguage() {
+            var selectedLanguage = document.getElementById("language").value;
+
+            // Update the content based on the selected language
+            switch (selectedLanguage) {
+                case "en":
+                    updateContent(translationsEn);
+                    break;
+                case "pt":
+                    updateContent(translationsPt);
+                    break;
+                default:
+                    break;
+            }
+
+            // Store the selected language preference
+            localStorage.setItem("userLanguage", selectedLanguage);
+        }
+
+        function updateContent(translations) {
+            document.getElementById("home").textContent = translations.home;
+            document.getElementById("lathe").textContent = translations.lathe;
+            document.getElementById("styli").textContent = translations.styli;
+            document.getElementById("blanks").textContent = translations.blanks;
+            document.getElementById("records").textContent =
+                translations.records;
+            document.getElementById("contact").textContent =
+                translations.contact;
+            document.getElementById("recordsTest").textContent =
+                translations.recordsTest;
+            document.getElementById("recordsTestsubt").textContent =
+                translations.recordsTestsubt;
+            document.getElementById("diamontTest").textContent =
+                translations.diamontTest;
+
+            document.getElementById("carbideTest").textContent =
+                translations.carbideTest;
+
+            document.getElementById("diamontTest2").textContent =
+                translations.diamontTest2;
+
+            document.getElementById("carbideTest2").textContent =
+                translations.carbideTest2;
+            document.getElementById("diamontTest3").textContent =
+                translations.diamontTest3;
+
+            document.getElementById("carbideTest3").textContent =
+                translations.carbideTest3;
+        }
+
+        // Retrieve the user's language preference from storage
+        var storedLanguage = localStorage.getItem("userLanguage");
+
+        // Set the default language to Portuguese or the stored preference
+        document.getElementById("language").value = storedLanguage || "pt";
+
+        // Trigger the language change when the page loads
+        changeLanguage();
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // JavaScript for image swapping
+            const bigImage = document.getElementById("bigImage"); // Removed the '#' from "bigImage"
+            const smallImages = document.querySelectorAll(".small-image");
+
+            smallImages.forEach((smallImage) => {
+                smallImage.addEventListener("click", () => {
+                    const clickedImageSrc = smallImage.getAttribute("src");
+                    const bigImageSrc = bigImage.getAttribute("src");
+                    // Swap the big image source with the clicked image source
+                    bigImage.setAttribute("src", clickedImageSrc);
+                    // And if you also want to set the clicked small image to the previous big image source:
+                    smallImage.setAttribute("src", bigImageSrc);
+                });
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // JavaScript for image swapping
+            const bigImage2 = document.getElementById("bigImage2"); // Removed the '#' from "bigImage"
+            const smallImages2 = document.querySelectorAll(".small-image2");
+
+            smallImages2.forEach((smallImage2) => {
+                smallImage2.addEventListener("click", () => {
+                    const clickedImage2Src = smallImage2.getAttribute("src");
+                    const bigImage2Src = bigImage2.getAttribute("src");
+                    // Swap the big image source with the clicked image source
+                    bigImage2.setAttribute("src", clickedImage2Src);
+                    // And if you also want to set the clicked small image to the previous big image source:
+                    smallImage2.setAttribute("src", bigImage2Src);
+                });
+            });
+        });
+    </script>
+</html>

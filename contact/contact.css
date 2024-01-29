@@ -1,0 +1,120 @@
+* {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: sans-serif;
+            }
+
+            body {
+                min-height: 100vh;
+                background-color: white;
+            }
+
+            .container {
+                position: relative;
+                width: 100vw;
+                height: 100vh;
+                overflow: hidden;
+            }
+
+            img {
+                position: absolute;
+                max-width: 150px;
+                margin: auto;
+                top: 60%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+                cursor: pointer;
+                z-index: -1;
+            }
+
+            .container .row .collapse a {
+                text-decoration: none;
+                color: rgb(8, 0, 0);
+                margin-right: 20px;
+
+                transition-duration: 2s;
+                animation-timing-function: ease-in-out;
+                animation-delay: 2s;
+                font-size: 14px;
+            }
+
+            .container .row .collapse a:hover {
+                letter-spacing: 1px;
+                color: black;
+            }
+
+            
+
+           
+
+            .container-fluid .icons {
+                margin-top: 70px;
+            }
+
+            .contato {
+                color: black;
+                margin-top: 2rem;
+                
+                
+            }
+            
+            .textContact{
+                text-align: justify;
+                
+            }
+
+           
+            
+.address-map-section{
+    
+    margin-top: -20rem;
+    
+}
+
+            @media (max-width: 991px) {
+                img {
+                    top: 30px;
+                }
+
+                .mapa{
+                    width: 90vw;
+                }
+.container{
+ height: 120vh;
+
+}
+                .container .contato{
+                    color: black;
+                margin-top: 0rem;
+                
+                
+                }
+
+            
+            .container .address {
+                padding: 10px;
+                
+               
+                
+
+            }
+            .container .contato {
+                padding: 10px;
+            }
+
+            .container .icons{
+                
+                margin-top: 0rem;
+            }
+
+          
+
+            
+.address-map-section{
+    
+    margin-top: 20rem;
+}
+                
+            }

@@ -1,0 +1,246 @@
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: sans-serif;
+            }
+
+            body {
+                min-height: 100vh;
+                background-color: white;
+                
+            }
+
+            
+
+            img {
+                position: absolute;
+                max-width: 150px;
+                margin: auto;
+                top: 30px !important;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+                cursor: pointer;
+                z-index: -1;
+            }
+            
+
+            .container .row .collapse a {
+                text-decoration: none;
+                color: #080000;
+                margin-right: 15px;
+                transition-property: background-color, letter-spacing;
+                transition-duration: 2s;
+                animation-timing-function: ease-in-out;
+                animation-delay: 2s;
+                font-size: 14px;
+                
+                
+            }
+            
+          
+
+
+            .container .row .collapse a:hover {
+                letter-spacing: 2px;
+                color: black;
+            }
+        
+
+
+
+
+            .container .row .text1 {
+                margin-top: 5rem;
+                font-size: smaller;
+                margin-bottom: 10rem;
+                text-align: justify;
+                  
+            }
+
+            .container .row .text2 {
+                margin-top: 5rem;
+                font-size: smaller;
+                margin-bottom: 10rem;
+                text-align: justify;
+                  
+            }
+
+            
+
+            .container .row .big-image {
+                margin-top: 15rem;
+                cursor: pointer !important;
+                z-index: 2;
+                padding: 0px;
+
+            }
+            
+
+            .container .row .small-image {
+                margin-top: 35rem;
+                padding: 15px;
+                cursor: pointer !important;
+                z-index: 2;
+                border: none;
+            }
+
+            
+
+            .container .row .text .subt {
+                margin-bottom: 50px;
+            }
+
+            .container .row .text h4,
+            h1 {
+                font-weight: bold;
+            }
+
+            .container .row .big-image2 {
+                margin-top: 15rem;
+                cursor: pointer !important;
+                z-index: 2;
+                padding: 0px;
+            }
+
+            .container .row .small-image2 {
+                margin-top: 35rem;
+                padding: 15px;
+                cursor: pointer !important;
+                z-index: 2;
+                border: none;
+                
+            }
+
+            .language-dropdown {
+                top: 40px;
+                right: 0px;
+                display: flex;
+                align-items: center;
+                z-index: 100; /* Adjust the value as needed */
+            }
+
+            .language-dropdown label {
+                margin-right: 10px;
+            }
+
+            .language-dropdown select {
+                appearance: none;
+                padding: 5px;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                background: url("https://emojicombos.com/") no-repeat right
+                    center;
+                background-size: 20px;
+                cursor: pointer;
+            }
+
+            @media screen and (min-width: 0px) and (max-width: 450px) {
+            
+                .container .row .big-image {
+                margin-top: 0rem;
+                
+            }
+
+            .container .row .big-image2 {
+                margin-top: 0rem;
+                
+            }
+
+
+
+                .container .row .small-image {
+                margin-top: 12rem;
+
+            }
+             .container .row .small-image2 {
+                margin-top: 12rem;
+
+            }
+            .container .row .text2 {
+                margin-top: 25rem;
+                
+            }
+
+            }
+
+            @media screen and (min-width: 451px) and (max-width: 767px) {
+
+                  .container .row .big-image {
+                margin-top: 5rem;
+                
+            }
+
+            .container .row .big-image2 {
+                margin-top: 5rem;
+                
+            }
+
+
+
+                .container .row .small-image {
+                margin-top: 22rem;
+
+            }
+             .container .row .small-image2 {
+                margin-top: 22rem;
+
+            }
+            .container .row .text2 {
+                margin-top: 35rem;
+                
+            }
+
+            }
+
+            @media screen and (min-width: 768px) and (max-width: 991px) {
+
+                .container .row .big-image {
+                margin-top: 8rem;
+                padding: 0;
+                
+            }
+
+            .container .row .big-image2 {
+                margin-top: 8rem;
+                padding: 0;
+                
+            }
+
+
+
+                .container .row .small-image {
+                margin-top: 22rem;
+
+            }
+             .container .row .small-image2 {
+                margin-top: 22rem;
+
+            }
+            .container .row .text2 {
+                margin-top: 35rem;
+                
+            }
+
+            .container .row .collapse  {
+                margin-left: -7rem;
+                
+                margin-right: 10px;
+                
+                
+            }
+            .container .row .collapse  a {
+                
+                margin-right: 10px;
+                
+                
+            }
+            .logo {
+                
+                left: 15%;
+                
+            }
+
+            }
